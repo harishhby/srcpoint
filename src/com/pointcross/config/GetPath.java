@@ -16,6 +16,6 @@ public class GetPath {
 	}
 	public static String getBasePath(){
 		readproperty();
-		return prop.getProperty("baseFilePath");
+		return prop.getProperty("baseFilePath");		
 	}
 }

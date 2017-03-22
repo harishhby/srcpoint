@@ -13,7 +13,7 @@ public class Mainclass {
 	 */
 	public static void main(String[] args) {
 		List<String> file= new ArrayList<String>();
-		String path =GetPath.getBasePath()+"//Setup//testNg.xml";
+		String path =GetPath.getBasePath()+"/testNg.xml";
 		System.out.println("Path Is:"+path);
 		file.add(File.separator+path);
 		

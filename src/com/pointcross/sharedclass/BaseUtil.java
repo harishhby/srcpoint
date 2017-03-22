@@ -50,7 +50,7 @@ public class BaseUtil {
 	//public  static  Xls_Reader datatable;
 
 	//public static Xls_Reader datatable=new Xls_Reader(GetPath.getBasePath()+"\\TestData\\ProjectTestData.xlsx");
-	public static Xls_Reader datatable=new Xls_Reader(GetPath.getBasePath()+"\\ProjectTestData.xlsm");
+	public static Xls_Reader datatable=new Xls_Reader(GetPath.getBasePath()+"\\TestData\\ProjectTestData.xlsm");
 	//public static Xls_Reader datatable=new Xls_Reader(GetPath.getBasePath()+"\\ProjectTestData.xls");
 	
 	public static  String strControllerPath = GetPath.getBasePath()

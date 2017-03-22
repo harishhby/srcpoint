@@ -58,6 +58,5 @@
 	<classpathentry kind="lib" path="lib/selenium-java-2.48.2-srcs.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-java-2.48.2.jar"/>
 	<classpathentry kind="lib" path="lib/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="D:/Ravi/RaviAutomation/AUTOMATION_FRAMEWORK/lib/sikuli-api-1.0.2-standalone.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -28,7 +28,7 @@ public class Xls_Reader extends BaseUtil {
 	
 	
 	//public static String filename = System.getProperty("user.dir")+"\\src\\config\\testcases\\TestData.xlsx";
-	public static String datatable = (GetPath.getBasePath()+"\\ProjectTestData.xlsm");
+	public static String datatable = (GetPath.getBasePath()+"\\TestData+\\ProjectTestData.xlsm");
 	//public static String filename = (GetPath.getBasePath()+"\\ProjectTestData.xlsm");
 	public  String path;
 	public  FileInputStream fis = null;
