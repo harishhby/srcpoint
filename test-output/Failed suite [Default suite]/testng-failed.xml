@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]">
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.POINTCROSS.testcases.Ctdcsubmission.CtdcSubmissionpackageTest">
+        <methods>
+          <include name="initiate"/>
+          <include name="setUp"/>
+          <include name="submissionpackage1"/>
+          <include name="submissionpackage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.POINTCROSS.testcases.Ctdcsubmission.CtdcSubmissionpackageTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

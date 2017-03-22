@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="pkdkdSuite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.ICT.testcases.Pharmacy.PharmacyTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- pkdkdSuite -->

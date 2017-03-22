@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 30 18:36:08 GMT+05:30 2015</td>
+</tr>
+<tr><td>Total time:</td><td>148 seconds (148025 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ICT.testcases.AmbulatoryCare.AmbulatoryCareTest.aregisterPatient()'><b>aregisterPatient</b><br>Test class: com.ICT.testcases.AmbulatoryCare.AmbulatoryCareTest<br>Parameters: Reyaz, Syad, Khan, Abdul, Syad, Khan, 24-02-1985, 30.0, 1.23456789E9, Arabic, HNO:2/12, Santhosh Nagar, ITPL, Bangalore, Bangalore, Karnataka, India, 560068.0, 1.2345678E7, HNO:22/13, White field, bangalore, bangalore, karnataka, india, 560068.0, 9.87654321E9, Abdulla, 2.34567891E9, 12345.0, qwer3456h, Govt, Alankit Healthcare TPA Ltd, Bharati AXA Insurance Company, BAZAZ Aliance, G001, 20-02-15, Reyaz, ICT\183, A1234567 , 25/02/2015, 5.3222160952372E14, 14/2/2018, 2/22,madhava nilayam,prasanth layout,white filed,banglore, MLC001, Addl Commissioner Of Police I, 30/02/2015</td>
+<td></td>
+<td>145</td>
+<td>com.ICT.testcases.AmbulatoryCare.AmbulatoryCareTest@1af67f0</td></tr>
+</table><p>
+</body>
+</html>

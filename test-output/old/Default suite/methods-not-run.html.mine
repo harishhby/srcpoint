@@ -1,0 +1,7 @@
+<h2>Methods that were not run</h2><table>
+<tr><td>com.ICT.testcases.Pharmacy.PharmacyTest.ReturnPharmacyItemforOPPatients</td></tr>
+<tr><td>com.ICT.testcases.Pharmacy.PharmacyTest.Createandispense</td></tr>
+<tr><td>com.ICT.testcases.Pharmacy.PharmacyTest.PharmacyDispenceForOapPatientsIssueondemand</td></tr>
+<tr><td>com.ICT.testcases.Pharmacy.PharmacyTest.PharmacyDispenseforIPPatientsAgainstorders</td></tr>
+<tr><td>com.ICT.testcases.Pharmacy.PharmacyTest.PharmacyDispenseForIpPatientsIssueondemand</td></tr>
+</table>

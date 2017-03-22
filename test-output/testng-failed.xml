@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="atu.testng.reports.listeners.ATUReportsListener"/>
+    <listener class-name="atu.testng.reports.listeners.ConfigurationListener"/>
+    <listener class-name="atu.testng.reports.listeners.MethodListener"/>
+  </listeners>
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="com.POINTCROSS.testcases.Scripts.Script3">
+        <methods>
+          <include name="SP_Creation_Update_Test_3"/>
+        </methods>
+      </class> <!-- com.POINTCROSS.testcases.Scripts.Script3 -->
+      <class name="com.POINTCROSS.testcases.Scripts.Script4">
+        <methods>
+          <include name="CancelSubmission_Reactivate_Test_4"/>
+        </methods>
+      </class> <!-- com.POINTCROSS.testcases.Scripts.Script4 -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
